@@ -1,3 +1,12 @@
+/**************************************************************
+* File Name     :  Automatic sliding door
+* Author        :  LAVANYA C
+* Employee ID   :  138006
+* Course        :  Embedded C
+* Created Date  :  14/9/2018
+***************************************************************/
+
+
 #include<avr/io.h>
 #include<avr/interrupt.h>
 
