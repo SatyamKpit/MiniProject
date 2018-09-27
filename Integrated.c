@@ -185,28 +185,6 @@ void MIL()
 }
 
 
-/***************************************************************
-					Internal Service Routines
-****************************************************************/
-
-/***************************************************************
-* Name:        SW1 interrupt
-* Description: It switches on the system
-****************************************************************/
-/*ISR(INT0_vect)
-{
-   	cli();
-    PORTB ^=(1<<LED1);
-    FLAG.STATUS_ONE=~FLAG.STATUS_ONE;
-    sei();
-}*/
-
-
-/***************************************************************
-* Name:        Timer0 Overflow interrupt
-* Description: Does the initial LED blinking when Assistance switch is turned on
-* Arguments:
-****************************************************************/
 //ISR for Assistance switch On/Off
 ISR(PCINT2_vect)
 {
