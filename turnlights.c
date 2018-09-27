@@ -3,8 +3,6 @@ NAME   : AARTHI PARAMASIVAM
 EMP ID : 138011
 BATCH  : ADAS
 NAME   : INTELLIGENT TURN LIGHTS
-DATE   : 14.09.2018
-LINK   : https://www.tinkercad.com/things/5ixTxvFVAI5-intelligent-turn-lights-embedded-c-/editel
 */
 
 
