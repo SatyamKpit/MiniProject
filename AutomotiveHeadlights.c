@@ -7,10 +7,6 @@
 #define LowBeam PD1
 #define Switch PD5
 
-/*Switch-PD5-PCINT21
-  HighBeam-PD0
-  LowBeam-PD1*/
-
 struct FLAG{
   volatile unsigned int Timer:1;
   volatile unsigned int StartFLAG:1;
