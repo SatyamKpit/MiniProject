@@ -14,7 +14,7 @@ struct FLAG{
 }FLAGbit;
 
 
-int count=0x00;
+volatile uint16_t count=0x00;
 
 void InitializeTimer()
 {
